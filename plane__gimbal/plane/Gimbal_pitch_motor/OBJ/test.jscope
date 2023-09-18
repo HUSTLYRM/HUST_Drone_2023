@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="" TargetDevice="Cortex-M4" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="C:\Users\17689\Desktop\无人机云台\Gimbal_pitch_motor\OBJ\F405RGT6_Demo.axf" />
+            <DataFile Name="" />
+            <RawFile Name="..\Data.jraw" />
+            <Scope>
+                <Options TimeResolutionUs="200000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="receiveAngle" Address="0x2000042E" Type="ushort" TypeID="7" Size="2" GraphColorRed="102" GraphColorGreen="102" GraphColorBlue="178" YMinSampled="4993" YMaxSampled="5305" YAvgSampled="5123" Offset="4" ShowInGraph="0" ACCoupling="0" YOffset="40" IsAutoConfig="0" YResolution="1000" MaxValue="5370" File="..\MYLIB\communicate.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="setPoint" Address="0x20000438" Type="float" TypeID="1" Size="4" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="5015" YMaxSampled="5291" YAvgSampled="5122" Offset="6" ShowInGraph="0" ACCoupling="0" YOffset="40" IsAutoConfig="0" YResolution="1000" MaxValue="10000" File="..\MYLIB\communicate.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="test_see_left" Address="0x20000050" Type="int" TypeID="12" Size="4" GraphColorRed="102" GraphColorGreen="102" GraphColorBlue="178" YMinSampled="-256" YMaxSampled="15153" YAvgSampled="1664" Offset="10" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="10000" MaxValue="20000" File="..\MYLIB\motor.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="test_see_right" Address="0x20000054" Type="int" TypeID="12" Size="4" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="-15195" YMaxSampled="252" YAvgSampled="-1670" Offset="14" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="10000" MaxValue="20000" File="..\MYLIB\motor.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
